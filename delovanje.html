@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Delovanje fotoaparata</title>
+		<meta charset = "utf-8">
+		<meta name = "author" content = "Vid">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="header">
+			<a href="index.html"><img src = "slike/logotip.svg" alt = "logo" height="100px"></a>
+			<div><a href="index.html" id="title">Fotografija</a></div>
+			<div class="meni">
+				<a href="index.html">Domov</a>
+				<a href="zgodovina.html">Zgodovina fotografije</a>
+				<a class="active" href="delovanje.html">Delovanje fotoaparata</a>
+				<a href="tipi.html">Tipi fotografije</a>
+				<a href="astro.html">Astrofotografija</a>
+				<a href="viri.html">Viri</a>
+			</div>
+		</div>
+		<div class="vsebina">
+			<h1>Delovanje fotoaparata</h1>
+
+			<img src="slike/film.png" alt="film" class="slikice-desno">
+
+			<h2>Analogni fotoaparati</h2>
+
+			<p>Pri analognih ali klasičnih fotoaparatih se ob pritisku sprožilca odpre zaklopka in spusti svetlobo (fotone) na film.</p>
+
+			<p>Kaj pa je film?<br>
+			Film je trak prosojne folije, ki je na eni strani premazan z želatinasto emulzijo, katera vsebuje mikroskopske, občutljive na svetlobo kristale srebrovega halida. Velikosti in ostale karakteristike teh kristalov določajo občutljivost, kontrast in resolucijo filma.</p>
+
+			<p>Torej, ko se zaklopka odpre zelo kratko osvetli odkrit film. Na filmu kristali absorbirajo svetlobo in v emulziji povzročijo majhno kemijsko spremembo, ki je sorazmerna s količino absorbirane svetlobe. Tako se v emulziji ustvari zelo slabo vidna slika, ki jo je kasneje mogoče kemično razviti v fotografijo.</p>
+
+			<h2>Digitalni fotoaparati</h2>
+
+			<p>Pri digitalnih fotoaparatih pa je proces zelo podoben. Ob pritisku na sprožilec se odpre zaklopka, ali odmakne ogledalce in razkrije digitalno tipalo ali senzor. Tipalo je pravokotne oblike veliko par centimetrov. V notranjosti pa je sestavljeno iz množice fotodiod. To so celice občutljive na gostoto svetlobnega toka. Te diode spremenijo mimoidoči foton v električno napetost, ki požene elektrone do elektronike, ki ga "prebere" kot sporočilo o tem, koliko svetlobe je padlo na dotično diodo. Fotodiode so razporejene v vrsticah in stolpcih. Tako dobimo nekakšno matriko (m x n), ki se običajno imenuje kar ločljivost fotoaparata.</p>
+
+			<p>Torej ob odmiku ogledalca ali zaklopke, skozi lečo objektiva spustimo svetlobo do tipala. Tipalo nato količino svetlobe spremeni v elektično napetost, ki jo nato algoritmi znotraj aparata zakodirajo v formate JPG oz RAW in jih shranijo na pomnilniško kartico.</p>
+
+			<p>Ko imamo enkrat svoje slike na pomnilniški kartici, lahko z njimi počnemo veliko stvari. Lahko jih ohranjamo v digitalni obliki in shranjujemo na druge zunanje pomnilnike, lahko pa slike natisnemo in shranimo v fotoalbum. Moderna digitalizacija je proces slikanja in razvijanja bistveno skrajšala. Ker je proces tako preprost in dostopen, se dandanes veliko več kjudi ukvarja s fotografijo.</p>
+
+			<h1 id="kako_zajeti_sliko">Kako zajeti sliko</h1>
+
+			<p>Kot smo do sedaj že ugotovili, je fotografija le proces zajemanja svetlobe. Količina svetloba, ki bo ustvarila zapis na filmu ali senzorju pa je odvisna od treh medsebojno povezanih dejavnikov. Zaslonka: odprtina v objektivu, skozi katero pride svetloba v aparat. Ekspozicija: čas, ko je zaklopka odprta in spušča svetlobo iz objektiva na tipalo (čas osvetlitve). Občutljivost tipala/senzorja.</p>
+
+			<h2>Zaslonka</h2>
+
+			<p>Vsak objektiv ima vgrajeno zaslonko, ki jo lahko odpiramo ali zapiramo. Veličina odprtine se označuje z majhno črko f in številko. Manjša kot je številka (f/1.8, f/3,5) več svetlobe lahko preide skozi objektiv v aparat. Poleg količine prepuščene svetlobe pa zaslonka vpliva tudi na globinsko ostrino slike. Bolj kot je zaslonka zaprta večje bo ostro območje po globini slike. Obratno bo pri odprti zaslonki območje ostrine bolj plitko.</p>
+
+			<br>
+			<img src="slike/aperture.png" alt="graf zaslonke" id="center">
+			<br>
+
+			<h2>ekspozicija</h2>
+
+			<p>Na modernejših fotoaparatih je dolžina ekspozicije lahko dolga od 30 sekund in vse do ene štiritisočinke sekunde (1/4000) ali pa celo do 1/8000. Krajša ekspozicija torej pomeni, da bo zaklopka v tipalo spustila manj svetlobe a bo lahko ujela tudi premikajoče se elemente. Pri daljši ekspoziciji bo tipalo dobilo več svetlobe, a se bodo premikajoči se elementi zabrisali ter najmanjši premiki kot so tresljaji rok bodo zamazali sliko. Pri daljših časih zaklopke se večinoma uporabljajo stativi ali vgrajeni stabilizatorji v objektivu.</p>
+
+			<img src="slike/iso.png" alt="film" id="iso">
+
+			<h2>Občutljivost senzorja</h2>
+
+			<p>Tipalo kot samo ima določeno občutljivost na svetlobo. A z višanjem vrednosti ISO povečamo količino električne energije, ki jo prej omenjene diode pošljejo naprej elektroniki. Tako digitalno višamo ali nižamo količina svetlobe na končni sliki. A z večanjem vrednosti ISO v sliko vnašamo digitalni šum.</p>
+			<br>
+			<p>Torej za željen efekt na končni sliki se poigramo z prej omenjenimi vrednostmi. Različni tipi fotografije torej uporabljajo različne zgoraj omenjene vrednosti.</p>
+			<p><a href="tipi.html" id="vec">Preberi več</a></p>
+
+		</div>
+		<footer>
+  			<p>©2023 Vid Resnik Rečnik CC BY-NC-SA</p>
+		</footer>
+	</body>
+</html>

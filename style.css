@@ -1,0 +1,187 @@
+
+.header {
+  background-color: #0B2D59;
+  padding: 10px;
+  border: 2px solid black;
+  overflow: hidden;
+}
+.header img {
+  float: left;
+  margin-right: 10px;
+}
+
+#title {
+  float: left;
+  font-family: Verdana;
+  font-size: 50pt;
+  color: white;
+  margin: 5px;
+  text-decoration: none;
+}
+.meni a {
+  text-align: center;
+  font-family: Verdana;
+  font-size: 12pt;
+  float: left;
+  color: white;
+  padding: 5px;
+  margin: 7px;
+  text-decoration: none;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.meni a:hover {
+  text-decoration: underline;
+}
+
+.meni a.active {
+  text-decoration: underline;
+}
+
+.meni {
+  float: right;
+  padding-top: 27px;
+  padding-right: 10px;
+}
+
+
+.body-out {
+  border: 2px solid black;
+  overflow: hidden;
+}
+
+h1 {
+  color: #0B2D59;
+}
+
+#zgodovina, #tipi, #delovanje, .slika, #slika{
+  border: 2px solid black;
+  margin: 20px;
+  overflow: hidden;
+  background-color: #D3D3D3;
+  border-radius: 5px;
+}
+.tekst {
+  float: right;
+  text-align: left;
+  font-family: Verdana;
+  font-size: 12pt;
+  width: 50%;
+  margin-left: 30px;
+  margin-top: 30px;
+  line-height: 140%;
+}
+
+.tekst a, #vec{
+  color: blue;
+  font-size: 15pt;
+}
+
+.slika {
+  float: left;
+  width: 40%;
+}
+
+.slika img,p {
+  max-width: 100%;
+  display: block;
+}
+
+#tekst {
+  float: left;
+  text-align: left;
+  font-family: Verdana;
+  font-size: 12pt;
+  width: 50%;
+  margin-left: 30px;
+  margin-top: 30px;
+  line-height: 140%;
+}
+
+#tekst a {
+  color: blue;
+  font-size: 15pt;
+}
+
+#slika {
+  float: right;
+  width: 40%;
+}
+
+#slika img,p {
+  max-width: 100%;
+  display: block;
+}
+
+.vsebina {
+  text-align: left;
+  font-family: Verdana;
+  font-size: 12pt;
+  line-height: 140%;
+  border: 2px solid black;
+  overflow: hidden;
+  background-color: #D3D3D3;
+  padding: 20px;
+}
+
+.slikice-desno {
+  float: right;
+  width: 40%;
+  padding-right: 30px;
+  padding-left: 20px;
+}
+#iso {
+  float: right;
+  width: 10%;
+  padding-right: 130px;
+  padding-left: 20px;
+}
+h2 {
+  padding-left: 10px;
+}
+.vsebina p {
+  padding-left: 20px;
+  width: 60%;
+}
+
+
+#center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.tipi-desno {
+  float: right;
+  width: 35%;
+  border: 2px solid black;
+
+}
+
+
+.vrstica {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.stolpec {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.stolpec img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 40%;
+}
+
+footer {
+  text-align:center;
+  color: #bbb;
+}
+footer p {
+  width: 100%;
+}
